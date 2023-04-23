@@ -1,0 +1,434 @@
+/* home page */
+ 
+*{
+    
+   
+}
+body{
+   
+}
+
+.menu:hover{
+    cursor: pointer;
+}
+.menu{
+    position: absolute;
+    top:20px;
+    right:20px;
+    display:none;
+}
+nav{
+    width: 100%;
+    box-sizing: border-box;
+}
+.menu-line{
+    height:3px;
+    width:30px;
+    margin:4px;
+    background-color: #fff;
+    
+}
+
+@media only  screen and (max-width:640px){
+
+body{
+    
+}
+
+
+
+/*nav -------------------------------- */
+nav{
+   justify-content: center;
+   grid-template-columns: 1fr;
+   opacity: 1;
+  background-color: #292929;
+  
+}
+#m li{
+     margin:10px 0;
+}
+.nav-link-container{
+    display:grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+   justify-content: center;
+   display:none;
+    
+}
+.nav-heading{
+   
+}
+
+.menu{
+    display:block;
+}
+
+
+
+
+
+/* banner------------------ */
+
+.banner-image{
+display:none;
+}
+
+.circle-img{
+    display: none;
+}
+
+.banner-heading{
+
+    text-align: center;
+    margin:100px auto 0;
+}
+.banner-container{
+   justify-content: center;
+   grid-template-columns: 70%;
+}
+/* banner------------------ */
+ video{
+    margin:0;
+ }
+ 
+
+/* service ------------------*/
+
+.service-card-container{
+    grid-template-columns: auto;
+padding: 10px;
+}
+.cards{
+    width:60%;
+}
+
+.achivement-container{
+    grid-template-columns: 1fr;
+    margin:50px 0;
+}
+#about-us{
+    margin-top:0;
+}
+
+
+/* service ------------------*/
+#story{
+   
+}.story-para{
+    margin:10px 0;
+}
+.story-container{
+    grid-template-columns: 1fr;
+    margin:0px 0px;
+}
+#story img{
+    height:300px;
+    width: 80%;
+    margin-bottom:50px;
+}
+
+.mission-para,.vision-para,.story-para{
+    margin:10px 0;
+}
+
+/* ourwork-------------- */
+.ourwork-heading-container{
+   
+    margin:30px 0;
+}
+.ourwork-heading{
+    text-align: center;
+padding-top:0;
+margin:0 auto;
+margin-bottom: 30px;
+width:100%;
+}
+.what-heading{
+    text-align: center;
+    width:100%;
+}
+
+
+.ourwork-card-container{
+    grid-template-columns: 1fr;
+    margin:50px 0;
+}
+
+.ourwork-cards{
+    height:250px;
+    width:80%;
+}
+
+
+/* ourwork-------------- */
+
+
+
+/* ourblog ---------------*/
+
+.ourblog-card-container{
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding:0;
+}
+.ourblog-cards{
+    padding:0;
+    margin:20px 0;
+}
+
+/* ourblog ---------------*/
+
+
+
+
+/* testimonial-------------- */
+.review p{
+    margin:50px 30px;
+}
+.client-says-heading{
+    margin:0 20px;
+}
+.review-container{
+    grid-template-columns: auto;
+    margin:auto 0px;
+}
+
+/* contact -----------*/
+.form-container{
+    grid-template-columns: auto;
+}
+
+.review:hover{
+    transform: scale(1);
+   
+}
+
+.testimonial-container{
+    margin-top:50px;
+}
+/* footer -----------*/
+
+.logo-icon-container{
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+}
+.about-container{
+    grid-template-columns: 1fr;
+    bottom:40px;
+    gap:30px;
+    text-align: center;
+    
+}
+
+
+.footer-link{
+    display: none;
+}
+.footer-bg{
+    width:100%;
+    /* height:1000px; */
+    margin:0;
+}
+hr{
+    display:none;
+}
+.logo-icon-container{
+    bottom:600px;
+    left:25%;
+   width:50%;
+   display: none;
+}
+
+/* 
+--------ourworks html page----------------------- */
+/* .citi-web-image{
+    display:none;
+}
+
+.ourwork-container p{
+    margin:0 40px;
+    text-align: center;
+}
+.web-design-images{
+    grid-template-columns: auto;
+    margin:40px;
+    row-gap: 50px;;
+}
+.web-design img{
+    height:300px;
+}
+
+
+
+
+
+
+
+.get-app-container{
+    grid-template-columns: auto;
+    text-align: center;
+}
+
+.get-app-container div{
+   
+}
+
+.get-app-container h1{
+    padding-top:50px;
+}
+
+
+video{
+    margin:0;
+} */
+
+
+/* 
+service html page------- */
+.list-div{
+    grid-template-columns: auto;
+   
+   
+}
+.service-banner-container h1{
+    text-align: center;
+
+}
+.game-dev-cards-container{
+    grid-template-columns: auto;
+}
+.game-dev-cards-container div img{
+   width:100%;
+    height:100%;
+    margin-bottom:50px;
+}
+#game-developement-section{
+    margin:0 20px;
+}
+
+
+
+
+
+
+/* blockchain */
+#block-chain-container h1{
+    margin:0 0 50px;
+}
+.block-chain{
+    grid-template-columns: auto;
+   
+}
+
+
+
+/* app developement */
+.app-developement-container{
+    grid-template-columns: 1fr;
+    margin:20px 0;
+    padding:0 10px;
+}
+.web-bg{
+    display:none;
+}
+
+
+.web-developement-container{
+    grid-template-columns: 1fr;
+    margin:20px 0px;
+    padding:0 10px;
+}
+
+
+
+
+
+
+
+.web-developement-container img{
+   display: none;
+}
+
+
+
+
+
+
+
+
+/* utility-container */
+
+.utility-container{
+    grid-template-columns: auto;
+}
+.utility-color2{
+    margin:40px 0;
+}
+.utility-container p{
+    margin:20px 0;
+    padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* careers html */
+
+.cards-container{
+    grid-template-columns: 1fr;
+    margin:0;
+}
+
+
+
+
+/* about html */
+
+.first-div{
+    /* grid-template-columns:auto; */
+    margin:auto;
+   
+}
+
+#con{
+    display: grid;
+}
+.img-div img{
+    display:none;
+    
+}
+.img-div{
+    display: flex;
+     width:80%;
+     margin: auto;
+   
+}
+.img-div div div{
+    width:80%;
+    margin:auto;
+   height:auto;
+
+}
+/* .first-div div{
+    margin:auto;
+     width:80%;
+     height;
+} */
+
+
+
+.our-team{
+    grid-template-columns: 1fr;
+}
+
+.form-container{
+    margin:0 10px;
+}
+}

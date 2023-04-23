@@ -1,0 +1,16 @@
+
+
+
+
+@media only  screen and (max-width:640px){
+    .list-div{
+        grid-template-columns: auto;
+    margin:auto;
+    
+    
+    }
+    
+    .service-banner-container h1{
+        color:red !important;
+    }
+}

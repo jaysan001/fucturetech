@@ -1,0 +1,97 @@
+.career-banner-container img{
+width:100%;
+    height:300px;
+    margin-top:-50px;
+   
+
+}
+
+.career-heading h1{
+    text-align: center;
+    font-size: 40px;
+    margin:0px 0 50px;
+
+    
+}
+.career-banner-container h1{
+    font-size: 50px;
+    
+    position: relative;
+   margin:auto;
+   text-align: center;
+  bottom:150px;
+
+   
+    
+}
+body{
+    
+}
+
+
+.cards-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    margin:100px;
+    gap:50px;
+    text-align: center;
+
+}
+.cards-career{
+    padding:20px;
+    transition: 500ms;
+    border-radius: 10px;
+}
+
+.cards-career:hover{
+    box-shadow: 0px 10px 10px  #f49020;
+  
+    /* transform: scale(1.1,1.1); */
+}
+
+.cards-container p{
+line-height: 1.5rem;
+text-align: left;
+    
+}
+.cards-container h2{
+text-align: center;
+    
+}
+.cards-container input{
+padding:10px;
+width:100px;
+border-radius: 10px;
+background-color: #f49020;
+color:rgb(247, 237, 237);
+border:none;
+margin-top: 40px;
+
+
+
+    
+}
+.cards-container input:hover{
+    background-color: #f3aa57;
+
+}
+
+
+.find {
+    text-align: center;
+    font-size: 25px;
+    margin:200px 0 50px;
+}
+.find p{
+    margin:30px 0;
+}
+
+.find input{
+    padding:15px;
+    background-color: #f49020;
+    border:none;
+    color:white;
+}
+
+
+
